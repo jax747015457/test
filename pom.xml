@@ -56,7 +56,26 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <!-- GXT -->
+    <dependency>
+      <groupId>com.sencha.gxt</groupId>
+      <artifactId>gxt</artifactId>
+      <version>3.1.1</version>
+    </dependency>
+    <!-- Charts -->
+    <dependency>
+      <groupId>com.sencha.gxt</groupId>
+      <artifactId>gxt-chart</artifactId>
+      <version>3.1.0</version>
+    </dependency>
+    <!-- GXT 3.1+ - Neptune Theme -->
+    <dependency>
+      <groupId>com.sencha.gxt</groupId>
+      <artifactId>gxt-theme-neptune</artifactId>
+      <version>3.1.1</version>
+    </dependency>
   </dependencies>
+
 
   <build>
     <!-- Output classes directly into the webapp, so that IDEs and "mvn process-classes" update them in DevMode -->
